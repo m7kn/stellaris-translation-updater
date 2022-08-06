@@ -42,10 +42,10 @@ Tools for find, write and update missing translation text keys
 
 - **find missing keys in a single file:**
   ```bash
-  $ python find_missing_keys [filename_english] [filename_translated]
+  $ python find_missing_keys.py [filename_english] [filename_translated]
   ```
 
 - **find & write missing keys from a single file to a "missing keys file":**
   ```bash
-  $ python write_missing_keys [filename_english] [filename_translated] [filename_missing_keys]
+  $ python write_missing_keys.py [filename_english] [filename_translated] [filename_missing_keys]
   ```
