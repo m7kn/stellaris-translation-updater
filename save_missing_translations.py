@@ -22,15 +22,16 @@ def get_yml_files(folder_name):
 def main():
     """Main method"""
     args = sys.argv
-    if len(args) < 3:
+    if len(args) < 4:
         print(f"""
 Using:
-python {args[0]} [game_translation_folder] [mod_translation_folder]
+python {args[0]} [game_translation_folder] [mod_translation_folder] [lang]
 """)
         sys.exit()
 
     folder_english = args[1]
     folder_translated = args[2]
+    lang = args[3]
 
     print("Scanning folders...")
     filenames_english = get_yml_files(folder_english)
@@ -40,12 +41,17 @@ python {args[0]} [game_translation_folder] [mod_translation_folder]
       print("Not found translation files!")
       sys.exit()
 
-    dirname = "missing_translations"
+    dirname = f"missing_translations/{lang}"
     try:
-      os.mkdir(dirname)
+        os.mkdir("missing_translations")
     except FileExistsError:
-      shutil.rmtree(dirname)
-      os.mkdir(dirname)
+        pass
+        
+    try:
+        os.mkdir(dirname)
+    except FileExistsError:
+        shutil.rmtree(dirname)
+        os.mkdir(dirname)
 
     counter = 1
     writing_files_count = 0
