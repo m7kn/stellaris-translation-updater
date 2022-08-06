@@ -1,0 +1,8 @@
+ ancient_mining_expansion_barge:0 "Ancient Mining Expansion Barge"
+ ancient_mining_expansion_barge_plural:0 "Ancient Mining Expansion Barges"
+ ancient_mining_expansion_drone:0 "Ancient Mining Expansion Drone"
+ ancient_mining_expansion_drone_plural:0 "Ancient Mining Expansion Drones"
+ crystal_splitter_ship_large_blue:0 "$crystal_ship_large_blue$"
+ crystal_splitter_ship_large_blue_plural:0 "$crystal_ship_large_blue$"
+ sol_system_void_dweller_system_NAME:0 "Void Dwellers (Sol)"
+ sol_system_void_dweller_system_DESC:0 "Optional starting system for human with Void Dwellers Origin."

@@ -1,0 +1,50 @@
+ tech_corvette_hull_effect:0 "$mod_shipsize_corvette_hull_add$: §G+100§!"
+ tech_corvette_build_speed_effect:0 "$mod_ship_corvette_cost_mult$: §G-5%§!\n$mod_shipsize_corvette_build_speed_mult$: §G+25%§!"
+ tech_destroyer_hull_effect:0 "$mod_shipsize_destroyer_hull_add$: §G+200§!"
+ tech_destroyer_build_speed_effect:0 "$mod_ship_destroyer_cost_mult$: §G-5%§!\n$mod_shipsize_destroyer_build_speed_mult$: §G+25%§!"
+ tech_cruiser_hull_effect:0 "$mod_shipsize_cruiser_hull_add$: §G+500§!"
+ tech_cruiser_build_speed_effect:0 "$mod_ship_cruiser_cost_mult$: §G-5%§!\n$mod_shipsize_cruiser_build_speed_mult$: §G+25%§!"
+ tech_battleship_hull_effect:0 "$mod_shipsize_battleship_hull_add$: §G+800§!"
+ tech_battleship_build_speed_effect:0 "$mod_ship_battleship_cost_mult$: §G-5%§!\n$mod_shipsize_battleship_build_speed_mult$: §G+25%§!"
+ tech_engineering_1:0 "Nanomechanics" # Could also be Nanomatter
+ tech_engineering_2:0 "Supersolid Materials" # As above, could be Supersolid Matter
+ tech_construction_templates_effect:0 "$building_resource_silo$ Capacity: §G+5000§!"
+ tech_mega_assembly:0 "Mega-Assembly Systems"
+ tech_mega_assembly_desc:0 "Advanced templates allow us to drastically increase the assembly of new units."
+ tech_deep_scan_desc:0 "Unused" # TEMP
+ tech_combat_computers_1_desc:0 "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency." # The development of active combat personalities allows combat-AI to specialize heavily in specific tasks.
+ tech_combat_computers_3_desc:0 "Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques." # The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.
+ tech_auxiliary_fire_control_desc:1 "$FIRE_CONTROL_1_DESC$"
+ tech_dark_matter_propulsion_desc:0 "$SHIP_THRUSTER_5_DESC$"
+ tech_reactor_boosters_1_desc:0 "$REACTOR_BOOSTER_1_DESC$"
+ tech_reactor_boosters_2_desc:0 "$REACTOR_BOOSTER_2_DESC$"
+ tech_reactor_boosters_3_desc:0 "$REACTOR_BOOSTER_3_DESC$"
+ tech_ascension_theory_apoc:0 "$tech_ascension_theory$"
+ tech_ascension_theory_apoc_desc:0 "$tech_ascension_theory_desc$"
+ tech_tundra_colonization_desc:1 "$tech_arctic_colonization_desc$"
+ tech_ocean_colonization_desc:1 "$tech_arctic_colonization_desc$"
+ tech_arid_colonization_desc:1 "$tech_arctic_colonization_desc$"
+ tech_tropical_colonization_desc:1 "$tech_arctic_colonization_desc$"
+ tech_desert_colonization_desc:1 "$tech_arctic_colonization_desc$"
+ tech_continental_colonization_desc:1 "$tech_arctic_colonization_desc$"
+ tech_modular_components:1 "$tech_frontier_health_machine_intelligence$"
+ tech_modular_components_desc:1 "$tech_frontier_health_desc_machine_intelligence$"
+ tech_intelligent_factories:1 "$tech_frontier_hospital_machine_intelligence$"
+ tech_intelligent_factories_desc:1 "$tech_frontier_hospital_desc_machine_intelligence$"
+ tech_gene_tailoring_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$"
+ tech_gene_expressions_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$"
+ tech_planetary_unification_desc:2 "Ancient warring tribes, historical nations in conflict, now unified in empire. We must not, will not, crumble." # We have progressed from warring tribes, from conflicting nations, to a unified Empire, a single will ready to grasp the stars.
+ tech_planetary_unification_effect:1 "Grants a lump sum of £unity£§YUnity§!"
+ tech_adaptive_bureaucracy_desc:1 "The progress we make calls for a new, nimbler form of administration that may aid rather than hinder us in our pursuits." # The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.
+ tech_effective_bureaucracy:0 "Effective Bureaucracy"
+ tech_effective_bureaucracy_desc:0 "Improved algorithms for processing and organizing vast amounts of data has streamlined decision-making and information-sharing throughout the empire."
+ tech_living_state_desc:1 "The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing." # Our Empire is a living thing, all of us vital organs in its future well-being. OR At some point the system took on a purpose of its own.
+ tech_ethical_equations_desc:1 "Limiting the freedoms of others while preserving one's own may require unusual mental acrobatics - a feat we are now better-equipped to perform." # At some point the decision must be made whether to keep to antiquated values or do what is necessary to prosper in a new future/world.
+ tech_hyper_entertainment_forum_desc:1 "$building_hyper_entertainment_forum_desc$"
+ tech_galactic_markets_desc:1 "$building_galactic_stock_exchange_desc$"
+ tech_repeatable_reduced_building_cost_desc:1 "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions." #by adapting each construction-project to local gravitational conditions we can save on materials used
+ tech_repeatable_reduced_building_time_desc:1 "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction." # through the use of advanced puzzle-logic we can make sure each building is assembled in the optimal order and pattern
+ gateway_espionage:0 "§HCovert Operations Path§!\n§EThis technology will lead to further advancements in espionage and covert activities.§!"
+ gateway_infrastructure:0 "§HInfrastructure Path§!\n§EThis technology will lead to further advancements in civilian infrastructure.§!"
+ tech_archeology_lab_ancrel:0 "$tech_archeology_lab$"
+ tech_archeology_lab_ancrel_desc:0 "$tech_archeology_lab_desc$"

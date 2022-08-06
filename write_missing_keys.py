@@ -1,5 +1,5 @@
 """
-Write to file missing keys in the Stellaris translation file
+Write to file missing keys in a Stellaris translation file
 """
 
 import sys

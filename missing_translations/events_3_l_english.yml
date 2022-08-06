@@ -1,0 +1,7 @@
+ anomaly.4016.name:0 "[DefiledCountry.GetName]"
+ anomaly.4035.desc:0 "We have made an interesting find on [From.GetName], however it is not related to the [From.GetPlanetMoon] itself. While conducting our usual tests we captured some odd data from a far-off system's star. Its radiation indicates that it is able to fuse together beryllium without spallation; something that should not be possible!\n\nThe science team are eager to investigate and have limited the potential stars down to two not-too-distant systems.\nConsult the §SSituation Log§! for details." #Source: http://www.forbes.com/sites/ethansiegel/2015/07/01/the-only-three-heavy-elements-in-the-universe-that-arent-made-in-stars/
+ anomaly.4048.a:0 "..."
+ anomaly.4055.b.tooltip:2 "\n$anomaly.4055.base.tooltip$"
+ anomaly.4093.name:0 "[RefugeeAliensNation.GetName]"
+ anomaly.4110.fail.desc:0 "The sand dunes of [From.GetName] are treachearous indeed. The sand is so finely grained that it almost could be called a liquid, and it swallows anything that sets down upon it. Settling here would take a heavy toll on personnel as well as structures.\n\nWith time we could probably learn how to work around these conditions. As the saying went: "Eventually our castle would stand upon the old one.""
+ anomaly_failure.4170.a.tooltip:0 "$anomaly_failure.4170.base.tooltip$."

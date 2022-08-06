@@ -49,3 +49,10 @@ Tools for find, write and update missing translation text keys
   ```bash
   $ python write_missing_keys.py [filename_english] [filename_translated] [filename_missing_keys]
   ```
+
+- **save all missing translations (missing key or english text) in the `missing_translations` folder:**
+  ```bash
+  $ python save_missing_translations.py [game_translation_folder] [mod_translation_folder]
+  ```
+  If the folder exists, first remove it.
+  

@@ -98,4 +98,28 @@ def find_missing_keys(datalines_eng, datalines_tr):
                 missing_data.append(data_eng)
 
     return missing_data
+
+
+def find_value(datalist: list, value: str) -> str:
+    """Find a value in a datalist"""
+    result = None
+    for item in datalist:
+        item_value = item["value"]
+        if item_value:
+            if item_value == value:
+                result = item
+                break
+
+    return result
   
+  
+def missing_translations(datalines_eng, datalines_tr):
+    """Find not translated texts"""  
+    missing_texts = []
+    for data_eng in datalines_eng:
+        if data_eng:
+            data_eng_value = data_eng["value"]
+            if data_eng_value != "" and find_value(datalines_tr, data_eng_value):
+                missing_texts.append(data_eng)
+                
+    return missing_texts
