@@ -13,9 +13,10 @@ Tools for find, write and update missing translation text keys
 ## Preparation:
 
 - copy files or `git clone`
+- install python venv if not installed
 - in the project folder:
   ```bash
-  $ pip -m venv venv
+  $ python3 -m venv venv
   $ source venv/bin/activate
   $ pip install -r requirements.txt
   ```
